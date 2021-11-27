@@ -1,0 +1,13 @@
+.bootombarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #161740;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin-top: 20px;
+  }
+

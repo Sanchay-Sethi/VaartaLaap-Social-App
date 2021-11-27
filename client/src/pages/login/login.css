@@ -1,0 +1,91 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='97' height='97' viewBox='0 0 120 120'%3E%3Cpolygon fill='%230114EE' fill-opacity='0.02' points='120 120 60 120 90 90 120 60 120 0 120 0 60 60 0 0 0 60 30 90 60 120 120 120 '/%3E%3C/svg%3E");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLogo {
+  font-size: 90px;
+  font-weight:900;
+  color: rgb(3, 52, 145)
+}
+
+.loginDesc {
+  font-size: 24px;
+}
+
+.loginBox{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' fill-opacity='0.27' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.loginInput{
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(72, 0, 189);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+}
+
+.loginRegisterButton{
+  width : 100%;
+  height : 40px;
+  background-color: rgba(37, 0, 97, 0);
+  color : rgb(0, 0, 0);
+  font-size : 18px;
+  border : none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+}
